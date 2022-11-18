@@ -1,6 +1,6 @@
 {
   "Post": {
-    "title": { "string": [
+    "title": [
         "hsa",
         "sas",
         "sas",
@@ -13,6 +13,6 @@
         "sas",
         "sas",
         "sas"
-    ] }
-  
+    ] 
+
 }}
