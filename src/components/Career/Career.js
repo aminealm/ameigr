@@ -5,7 +5,7 @@ import DataInfo from './DataInfo';
 import Pagination  from '../Pagination/Pagination';
 
 function Career() {
-    const url='https://mockend.com/aminealm/ameigr/posts'
+    const url='https://my-json-server.typicode.com/aminealm/ameigr/posts'
 
     const [data,setData] = useState([]);
 
