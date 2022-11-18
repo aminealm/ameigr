@@ -1,15 +1,27 @@
 {
   "Post": {
-    "title": {
-       "title1" : "dqsd",
-       "title2" : "dqsd",
-       "title3" : "dqsd",
-       "title4" : "dqsd",
-       "title5" : "dqsd",
-       "title6" : "dqsd",
-       "title7" : "dqsd"
-    
-
-       
+    "title": { "": [
+        "hsa",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas",
+        "sas"
+    ] },
+    "comments": {
+      "hasMany": "Comment"
     }
-}}
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
+}
