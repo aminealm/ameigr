@@ -5,7 +5,7 @@ import DataInfo from './DataInfo';
 import Pagination  from '../Pagination/Pagination';
 
 function Career() {
-    const url='https://jsonplaceholder.typicode.com/posts'
+    const url='https://mockend.com/org/repo/posts'
 
     const [data,setData] = useState([]);
 
