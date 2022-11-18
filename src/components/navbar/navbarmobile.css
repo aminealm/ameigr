@@ -1,0 +1,49 @@
+.mobile-view-header{
+    width: 100%;
+    background-color: rgba(40, 58, 90, 0.9);
+    color: black;
+    cursor: pointer;
+    
+    display: flex;
+    
+    align-items: center;
+}
+.mobile-view-header p svg{
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+}
+.responsive-mobile-view{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+
+.mobile-nav{
+    position:absolute;
+    width: 210px;
+    background-color: rgba(40, 58, 90, 0.9);
+    margin-top: 10px;
+}
+
+.mobile-nav ul li{
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+@media (min-width:900px) {
+    .responsive-mobile-view{
+        display: none;
+    }
+}
+@media (max-width:890px) {
+    .mobile-nav{
+        display: flex;
+    }
+}
